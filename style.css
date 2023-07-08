@@ -1,0 +1,16 @@
+.Menu{
+    background-color: #424141;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo img{
+    width: 160px;
+}
+.menu-item ul{
+    display: flex;
+}
+.menu-item ul li{
+    text-decoration: none;
+    color: #f1e8e800;
+}
