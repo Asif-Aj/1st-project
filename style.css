@@ -1,16 +1,24 @@
-.Menu{
-    background-color: #424141;
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    padding: 0 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu>ul{
     display: flex;
     align-items: center;
-    justify-content: space-around;
 }
-.logo img{
-    width: 160px;
+.menu li{
+    list-style: none;
+    padding: 10px 10px;
 }
-.menu-item ul{
-    display: flex;
-}
-.menu-item ul li{
+.menu li a{
     text-decoration: none;
-    color: #f1e8e800;
+    color: black;
 }
